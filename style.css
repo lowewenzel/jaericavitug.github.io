@@ -1,0 +1,671 @@
+body, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    opacity: 1;
+    transition: 1s opacity;
+    cursor: url(img/index/eye-cursor.png), auto;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+html {
+    background-color: white;
+}
+
+
+
+/*hamburger nav*/
+
+.topnav {
+  overflow: none;
+    background: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    
+}
+
+.topnav li {
+  display: inline-block;
+  text-align: right;
+  padding-top: 22px;
+    padding-bottom: 22px;
+  font-size: 18px;
+    padding-right: 75px;
+    padding-left: 75px;
+    overflow: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+
+.topnav a:hover {
+  color: darkgray;
+    text-decoration: none;
+}
+
+.topnav li.active {
+  background-color: #4CAF50;
+    background: white;
+    text-decoration: none;
+}
+
+.topnav .icon {
+  display: none;
+    color: black;
+    padding: 23px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  .topnav li:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive li {
+    float: none;
+    display: block;
+    text-align: center;
+      padding-bottom: 30px;
+      font-family: 'Poppins', sans-serif;
+      text-decoration: none;
+      background-color: white;
+  }
+}
+
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    height: 65px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    z-index: 500;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+#container a {
+    text-decoration: none;
+    color: black;
+}
+
+#container a:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a {
+    color:darkgray;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: url('img/index/eye-cursor-hover.png'), auto;
+    text-decoration: none;
+    
+}
+
+
+#logo img {
+    float: left;
+    width: 43px;
+    background: white;
+    padding-bottom: 10px;
+    padding-left: 7%;
+    padding-right: 30px;
+    padding-top: 10px;
+    position: absolute;
+}
+
+#logo {
+    float: left;
+}
+
+
+
+
+p {
+    color: black;
+
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    vertical-align: middle;
+
+}
+
+a {
+    transition: 0.4s;
+}
+
+img {
+    padding-bottom: 0;
+    display: block;
+}
+
+h1 {
+    width: 85%;
+    line-height: 65px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-left: 7.5%; 
+    margin-right: 7.5%;
+    font-size: 60px;
+}
+
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    font-weight: 600;
+    padding-bottom: 15px;
+    margin-left: 7.5%;
+}
+
+
+h2 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    color: gray;
+}
+
+#show-fact {
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+    transition: .4s;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#show-fact:hover {
+    background-color: black;
+    transition: .4s;
+    cursor: url('img/index/eye-cursor-hover.png'), auto;
+}
+
+#fact {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    color: darkgray;
+}
+
+
+#section1 {
+    height: 100%;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: top;
+    padding-bottom: 100px;
+    background-color:none;
+}
+
+
+#section1 a:hover {
+    cursor: url('img/index/eye-cursor.png'), auto;
+}
+
+#section1 h1 {
+    line-height: 9vw;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 12vw;
+    text-align: left;
+    font-weight: 800;
+    width: 80%;
+}
+
+
+#section1 h1 a:hover {
+    cursor: url(img/index/eye-cursor-hover.png), auto;
+}
+
+#section1 h2 {
+    line-height: 0;
+}
+
+#section1 p {
+    font-size: 1
+}
+
+
+
+#section2 {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: block;
+}
+
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    background-color: white;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    grid-template-columns: auto auto;
+}
+
+
+
+.grid-item {
+    border: 0px solid none;
+    position: relative;
+    height: 450px;
+      width: 50 50%;
+    display: block;
+    margin: 0px;
+    
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.photo-grid-container {
+    display: grid;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.photo-grid-item {
+    border: 3px solid white;
+    position: relative;
+    height: 500px;
+}
+
+.photo-grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.links-grid-container {
+    display: grid;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.links-grid-item {
+    height: 200px;
+    text-align: center;
+}
+
+
+
+.grid-item:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+    font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    letter-spacing: 5px;
+    line-height: 50px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+
+
+.center {
+  margin: auto;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 50%;
+  padding: 0px;
+}
+
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+/* Create four equal columns that sits next to each other */
+.me {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 50%;
+  padding: 0px;
+}
+
+
+
+.me img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 600px) {
+  .me {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .me {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+#section3 {
+    height: 100vh;
+    padding-top: 300px;
+
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    background-image: url(img/index/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: 1150px;
+    background-position: left top;
+}
+
+
+
+
+#section4 {
+    height: 100%;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background-image: url(img/index/section-bg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 700px;
+}
+
+
+#section4 img {
+    transition: .3s;
+    margin-left: 7%;
+    padding: 5px;
+    align-content: center;
+    float: left;
+    opacity: .5;
+}
+
+
+#section4 img:hover {
+    opacity: 1;
+    transition: .3s;
+}
+
+
+
+/* for smaller phone screens. can repeat again for other much smaller screen sizes */
+
+@media only screen and (max-width : 640px) {
+    #nav_bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    }
+    
+    li {
+    display: block;
+    line-height: 22px;
+    }
+    
+    ul {
+    margin: 0;
+    padding: 0;
+    height: 180px;
+    padding-top: 20px;
+    }
+    
+    #section1, #section2, #section3, #section4, #section5, #section6, #section7     {
+        padding-top: 80px;
+    }
+    
+    #box2 {
+        width: 60%;
+    }
+    
+    #box3 {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+    }
+    
+}
+
+#up {
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    font-size: 90px;
+}
+
+#up a {
+    color: lightgray;
+}
+
+#up a:hover {
+    color: black;
+}
+
+
+#graybackground {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E6E6E6; 
+}
+
+#roomood {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF7E7; 
+}
+
+
+
+
+.cover:hover .tooltip {
+    display: block;
+}
+
+
+.tooltip {
+    display: none;
+    background: none;
+    margin-left: 20px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+    width: 270px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: left;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  position: fixed;
+
+}
+
+
+.cover {
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.follower {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  position: fixed;
+  transform: translate(-50%, -50%);
+    margin-left: 15px;
+    margin-top: 11px;
+}
+
+#section3 h2 {
+    width: 100%;
+}
+
+#section3 p {
+    width: 100%;
+}
+
+
+
+.left {
+  float:left;
+  width: 30%; /* The width is 20%, by default */
+    padding-left: 7.5%;
+        padding-right: 7.5%;
+}
+
+.main {
+  padding:20px;
+  float:left;
+  width:40%; /* The width is 60%, by default */
+
+}
+
+.right {
+  float:left;
+  width:45%; /* The width is 20%, by default */
+
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:1200px) {
+  .left, .main, .right {
+    width:85%; /* The width is 100%, when the viewport is 800px or smaller */
+      padding-left: 7.5%;
+
+  }
+}
